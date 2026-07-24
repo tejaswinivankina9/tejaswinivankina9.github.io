@@ -1,0 +1,145 @@
+{
+  "heading": "Projects",
+  "projects": [
+    {
+      "name": "SAP S/4HANA Procure-to-Pay (P2P) Transformation",
+      "description": "Configured and supported Procure-to-Pay (P2P) processes including Purchase Requisitions, Purchase Orders, Goods Receipts, and Invoice Verification, improving procurement process efficiency and financial visibility. Validated FI-MM Integration and Vendor Master Data to ensure accurate financial postings.",
+      "technologies": [
+        "SAP S/4HANA",
+        "FI",
+        "MM"
+      ],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "SAP S/4HANA Financial Reporting & Central Finance Implementation",
+      "description": "Supported Central Finance, General Ledger (GL), Accounts Payable (AP), and Accounts Receivable (AR) processes, improving financial reporting and reconciliation accuracy. Developed SAP Fiori Reports and dashboards to support KPI tracking and executive reporting.",
+      "technologies": [
+        "SAP FI/CO"
+      ],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "SAP S/4HANA Inventory & Cost Optimization",
+      "description": "Analyzed Inventory Accounting, Goods Receipts, and logistics-related financial transactions to improve inventory accuracy and cost visibility. Supported Cost Center Accounting and inventory reconciliation activities to improve reporting accuracy.",
+      "technologies": [
+        "SAP MM",
+        "FI"
+      ],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "sentiment-analysis-webapp-sagemaker",
+      "description": "Comprehensive project exploring software design patterns",
+      "technologies": [
+        "Python"
+      ],
+      "liveUrl": "https://github.com/tejaswinivankina9/sentiment-analysis-webapp-sagemaker",
+      "githubUrl": "https://github.com/tejaswinivankina9/sentiment-analysis-webapp-sagemaker"
+    },
+    {
+      "name": "identify_contrails",
+      "description": "Portfolio project showcasing development capabilities",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "liveUrl": "https://github.com/tejaswinivankina9/identify_contrails",
+      "githubUrl": "https://github.com/tejaswinivankina9/identify_contrails"
+    },
+    {
+      "name": "thesis-option-pricing-with-deep-learning",
+      "description": "Personal project for exploring modern development practices",
+      "technologies": [
+        "Python"
+      ],
+      "liveUrl": "https://github.com/tejaswinivankina9/thesis-option-pricing-with-deep-learning",
+      "githubUrl": "https://github.com/tejaswinivankina9/thesis-option-pricing-with-deep-learning"
+    },
+    {
+      "name": "enhanced-anomaly-detection-system",
+      "description": "Comprehensive project exploring software design patterns",
+      "technologies": [
+        "Python",
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/tejaswinivankina9/enhanced-anomaly-detection-system",
+      "githubUrl": "https://github.com/tejaswinivankina9/enhanced-anomaly-detection-system"
+    },
+    {
+      "name": "online-grocery-retail---prediction-and-recommendation",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "liveUrl": "https://github.com/tejaswinivankina9/online-grocery-retail---prediction-and-recommendation",
+      "githubUrl": "https://github.com/tejaswinivankina9/online-grocery-retail---prediction-and-recommendation"
+    },
+    {
+      "name": "ds_salary_proj",
+      "description": "Practice repository for exploring advanced features",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "liveUrl": "https://github.com/tejaswinivankina9/ds_salary_proj",
+      "githubUrl": "https://github.com/tejaswinivankina9/ds_salary_proj"
+    },
+    {
+      "name": "customer-churn-prediction",
+      "description": "Comprehensive project exploring software design patterns",
+      "technologies": [
+        "Python"
+      ],
+      "liveUrl": "https://github.com/tejaswinivankina9/customer-churn-prediction",
+      "githubUrl": "https://github.com/tejaswinivankina9/customer-churn-prediction"
+    },
+    {
+      "name": "online-payments-fraud-detection-with-machine-learning",
+      "description": "Portfolio project showcasing development capabilities",
+      "technologies": [
+        "Jupyter Notebook",
+        "HTML",
+        "Python",
+        "CSS"
+      ],
+      "liveUrl": "https://github.com/tejaswinivankina9/online-payments-fraud-detection-with-machine-learning",
+      "githubUrl": "https://github.com/tejaswinivankina9/online-payments-fraud-detection-with-machine-learning"
+    },
+    {
+      "name": "anomaly-detection",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "liveUrl": "https://github.com/tejaswinivankina9/anomaly-detection",
+      "githubUrl": "https://github.com/tejaswinivankina9/anomaly-detection"
+    },
+    {
+      "name": "brain-mapping-eeg-classification",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [
+        "Python",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell",
+        "Dockerfile"
+      ],
+      "liveUrl": "https://github.com/tejaswinivankina9/brain-mapping-eeg-classification",
+      "githubUrl": "https://github.com/tejaswinivankina9/brain-mapping-eeg-classification"
+    },
+    {
+      "name": "contribution-history",
+      "description": "Contribution activity",
+      "technologies": [],
+      "liveUrl": "https://github.com/tejaswinivankina9/contribution-history",
+      "githubUrl": "https://github.com/tejaswinivankina9/contribution-history"
+    }
+  ]
+}

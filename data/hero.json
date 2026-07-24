@@ -1,0 +1,127 @@
+{
+  "greeting": "Hi there!",
+  "name": "Tejaswini Vankina",
+  "description": "Based in PA, USA. SAP S/4HANA Functional Analyst with 4 years of experience supporting SAP FI/CO, MM, and SD implementations across Finance, Procurement, and Supply Chain operations.",
+  "tagline": "SAP Functional Analyst",
+  "avatarUrl": "",
+  "socialLinks": [
+    {
+      "icon": "fab fa-github",
+      "url": "https://github.com/tejaswinivankina9",
+      "label": "GitHub"
+    },
+    {
+      "icon": "fab fa-linkedin",
+      "url": "https://www.linkedin.com/in/tvankina",
+      "label": "LinkedIn"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "url": "mailto:tejaswinivankina9@gmail.com",
+      "label": "Email"
+    }
+  ],
+  "techBadges": [
+    {
+      "icon": "fas fa-circle",
+      "label": "SAP S/4HANA"
+    },
+    {
+      "icon": "fas fa-microchip",
+      "label": "SAP ECC"
+    },
+    {
+      "icon": "fas fa-circle",
+      "label": "SAP FI"
+    },
+    {
+      "icon": "fas fa-microchip",
+      "label": "SAP CO"
+    },
+    {
+      "icon": "fas fa-circle",
+      "label": "SAP MM"
+    },
+    {
+      "icon": "fas fa-circle",
+      "label": "SAP SD"
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "label": "General Ledger (GL)"
+    },
+    {
+      "icon": "fas fa-microchip",
+      "label": "Accounts Payable (AP)"
+    }
+  ],
+  "terminalCommands": {
+    "about": {
+      "title": "About Me",
+      "content": "SAP Functional Analyst with 1+ years of experience building scalable web applications.",
+      "highlights": [
+        "Working with SAP S/4HANA",
+        "Working with SAP ECC",
+        "Working with SAP FI"
+      ]
+    },
+    "skills": [
+      "SAP S/4HANA",
+      "SAP ECC",
+      "SAP FI",
+      "SAP CO",
+      "SAP MM",
+      "SAP SD",
+      "General Ledger (GL)",
+      "Accounts Payable (AP)",
+      "Accounts Receivable (AR)",
+      "Asset Accounting",
+      "Cost Center Accounting",
+      "Internal Orders",
+      "Pricing",
+      "Inventory Management",
+      "SAP Fiori",
+      "SAP HANA Analytical Views"
+    ],
+    "experience": [
+      {
+        "company": "Microsoft",
+        "title": "SAP Functional Analyst – S/4HANA FI/CO & P2P",
+        "period": "May 2025 - Present",
+        "location": ""
+      },
+      {
+        "company": "CitiusTech",
+        "title": "SAP Business Analyst – S/4HANA FI/MM",
+        "period": "Nov 2020 - Dec 2023",
+        "location": ""
+      }
+    ],
+    "education": [
+      {
+        "degree": "Masters",
+        "institution": "Drexel University",
+        "period": "Dec 2025"
+      },
+      {
+        "degree": "Bachelors",
+        "institution": "M.S. Ramaiah University of Applied Sciences",
+        "period": "May 2022"
+      }
+    ],
+    "contact": {
+      "email": "tejaswinivankina9@gmail.com",
+      "website": "",
+      "github": "github.com/tejaswinivankina9",
+      "linkedin": "https://www.linkedin.com/in/tvankina"
+    }
+  },
+  "terminalLines": [
+    "$ whoami",
+    "Tejaswini Vankina",
+    "$ cat role.txt",
+    "SAP Functional Analyst",
+    "$ ls skills/",
+    "SAP S/4HANA  SAP ECC  SAP FI  SAP CO  SAP MM"
+  ]
+}

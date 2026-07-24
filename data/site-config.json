@@ -1,0 +1,32 @@
+{
+  "siteName": "Tejaswini Vankina | SAP Functional Analyst",
+  "theme": "light",
+  "loaderInitials": [
+    "T",
+    "V"
+  ],
+  "metaDescription": "Tejaswini Vankina — SAP Functional Analyst. Portfolio showcasing professional experience, skills, and projects.",
+  "metaKeywords": "Tejaswini Vankina, SAP Functional Analyst, Portfolio",
+  "progressCheckpoints": [
+    {
+      "id": "hero",
+      "label": "Home"
+    },
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "experience",
+      "label": "Journey"
+    },
+    {
+      "id": "skills",
+      "label": "Skills"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
+  ]
+}

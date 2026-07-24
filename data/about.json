@@ -1,0 +1,44 @@
+{
+  "heading": "ABOUT",
+  "paragraphs": [
+    {
+      "text": "SAP S/4HANA Functional Analyst with 4 years of experience supporting SAP FI/CO, MM, and SD implementations across Finance, Procurement, and Supply Chain operations. Experienced in Requirements Gathering, Fit-Gap Analysis, Business Process Analysis, Configuration, Data Migration, System Integration Testing (SIT), User Acceptance Testing (UAT), Cutover Planning, and Hypercare Support for Procure-to-Pay (P2P), Record-to-Report (R2R), and Order-to-Cash (OTC) processes. Skilled in General Ledger (GL), Accounts Payable (AP), Accounts Receivable (AR), Inventory Accounting, Central Finance, SAP Fiori, SAP HANA, and Power BI Reporting, with expertise in SAP Activate Methodology, Agile Delivery, Stakeholder Management, and cross-functional collaboration to deliver scalable SAP solutions that improve financial visibility, process efficiency, compliance, and operational performance.",
+      "highlights": []
+    },
+    {
+      "text": "Experienced sap functional analyst with {yearsExp} of hands-on experience across {industries}.",
+      "highlights": [
+        {
+          "text": "1+ years",
+          "color": "yellow",
+          "key": "yearsExp"
+        },
+        {
+          "text": "finance, data analytics",
+          "color": "pink",
+          "key": "industries"
+        }
+      ]
+    },
+    {
+      "text": "I bring a unique blend of {blend1}, {blend2}, and a genuine enthusiasm for {blend3}.",
+      "highlights": [
+        {
+          "text": "technical expertise",
+          "color": "yellow",
+          "key": "blend1"
+        },
+        {
+          "text": "collaborative leadership",
+          "color": "green",
+          "key": "blend2"
+        },
+        {
+          "text": "building impactful solutions",
+          "color": "cyan",
+          "key": "blend3"
+        }
+      ]
+    }
+  ]
+}

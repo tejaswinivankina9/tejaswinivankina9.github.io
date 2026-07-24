@@ -1,0 +1,41 @@
+{
+  "brandName": "TEJASWINI VANKINA",
+  "brandTitle": "SAP Functional Analyst",
+  "navLinks": [
+    {
+      "label": "Home",
+      "href": "#hero"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    }
+  ],
+  "socialLinks": [
+    {
+      "icon": "fab fa-github",
+      "url": "https://github.com/tejaswinivankina9",
+      "label": "GitHub"
+    },
+    {
+      "icon": "fab fa-linkedin",
+      "url": "https://www.linkedin.com/in/tvankina",
+      "label": "LinkedIn"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "url": "mailto:tejaswinivankina9@gmail.com",
+      "label": "Email"
+    }
+  ],
+  "copyright": "Tejaswini Vankina",
+  "year": "2026"
+}

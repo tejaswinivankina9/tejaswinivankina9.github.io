@@ -1,0 +1,321 @@
+{
+  "heading": "SKILLS",
+  "categories": [
+    {
+      "name": "Tools & Platforms",
+      "icon": "fas fa-tools",
+      "items": [
+        {
+          "name": "SAP S/4HANA",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "SAP ECC",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "SAP FI",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "SAP CO",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "SAP MM",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "SAP SD",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "General Ledger (GL)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Accounts Payable (AP)",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Accounts Receivable (AR)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Asset Accounting",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Cost Center Accounting",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Internal Orders",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Pricing",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Inventory Management",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "SAP Fiori",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "SAP HANA Analytical Views",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "CDS Views",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Power BI",
+          "icon": "fas fa-chart-bar"
+        },
+        {
+          "name": "Tableau",
+          "icon": "fas fa-chart-pie"
+        },
+        {
+          "name": "KPI Dashboards",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "LSMW",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "BDC",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "SAP Migration Cockpit",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "IDocs",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "BAPIs",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "RFCs",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "SAP CPI/PI",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "SAP GUI",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "SAP Solution Manager (ChaRM)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "ServiceNow",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Jira",
+          "icon": "fab fa-jira"
+        },
+        {
+          "name": "Confluence",
+          "icon": "fab fa-confluence"
+        }
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "icon": "fas fa-cogs",
+      "items": [
+        {
+          "name": "Procure-to-Pay (P2P)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Record-to-Report (R2R)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Order-to-Cash (OTC)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Central Finance",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Inventory Accounting",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Intercompany Accounting",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Treasury & Cash Management",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "SOX Compliance",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Working Capital Optimization",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Business Process Analysis",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "As-Is / To-Be Mapping",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Fit-Gap Analysis",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Functional Design",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Gap Analysis",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Business Process Reengineering",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Requirements Gathering",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Business Requirement Documents (BRD)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Functional Requirement Documents (FRD)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Functional Specifications",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Process Flows",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "User Stories",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Stakeholder Management",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Change Management",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Business Process Improvement",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Executive Reporting",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Financial Reporting",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Master Data Validation",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Data Reconciliation",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Interface Monitoring",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Unit Testing",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "System Integration Testing (SIT)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "User Acceptance Testing (UAT)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Regression Testing",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Defect Resolution",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Cutover Planning",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Hypercare Support",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Go-Live Support",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Production Support",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Incident Management",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Release Management",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Agile (Scrum, Kanban)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Waterfall",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "SAP Activate Methodology",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "SDLC",
+          "icon": "fas fa-microchip"
+        }
+      ]
+    }
+  ]
+}
