@@ -298,47 +298,160 @@
     if (!timelineList || !data.positions) return;
 
     timelineList.innerHTML = data.positions
-      .map(
-        (pos) => `
-      <div class="timeline-item-flat">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content-flat">
-          <h4 class="timeline-title">${escapeHtml(pos.title)} @ ${escapeHtml(pos.company)}</h4>
-          <p class="timeline-date">${escapeHtml(pos.startDate)} - ${escapeHtml(pos.endDate || 'Present')}</p>
-          <p class="timeline-description">${escapeHtml(pos.description)}</p>
-          <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> ${escapeHtml(pos.location || '')}</p>
+      .map((pos, index) => {
+        const highlights = (pos.achievements || [])
+          .map((achievement) => `<li>${escapeHtml(achievement)}</li>`);
+        const visibleHighlights = highlights.slice(0, 4).join('');
+        const remainingHighlights = highlights.slice(4);
+        const moreHighlightsHtml = remainingHighlights.length
+          ? `<details class="timeline-more">
+              <summary>View ${remainingHighlights.length} more highlights</summary>
+              <ul class="timeline-highlights timeline-highlights-more">${remainingHighlights.join('')}</ul>
+            </details>`
+          : '';
+        const technologiesHtml = (pos.technologies || [])
+          .map((technology) => `<span class="experience-tech">${escapeHtml(technology)}</span>`)
+          .join('');
+        const logoHtml = pos.logo
+          ? `<a
+              class="company-logo-frame company-logo-frame--${escapeHtml(pos.logoVariant || 'wordmark')}"
+              href="${escapeHtml(pos.companyUrl || '#')}"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="${escapeHtml(pos.company)} website"
+            >
+              <img
+                src="${escapeHtml(pos.logo)}"
+                alt="${escapeHtml(pos.logoAlt || pos.company)}"
+                class="company-logo"
+                loading="lazy"
+                decoding="async"
+              >
+            </a>`
+          : '';
+        const locationHtml = pos.location
+          ? `<p class="timeline-location"><i class="fas fa-map-marker-alt"></i> ${escapeHtml(pos.location)}</p>`
+          : '';
+
+        return `
+      <article class="timeline-item-flat">
+        <div class="timeline-marker-flat" aria-hidden="true">
+          <span class="timeline-index">${String(index + 1).padStart(2, '0')}</span>
+          <span class="timeline-dot"></span>
+          <span class="timeline-stem"></span>
         </div>
-      </div>`
-      )
+        <div class="timeline-content-flat">
+          <div class="experience-card-top">
+            <div class="company-lockup">
+              ${logoHtml}
+              <div class="experience-heading">
+                <p class="timeline-company">${escapeHtml(pos.company)}</p>
+                <h4 class="timeline-title">${escapeHtml(pos.title)}</h4>
+                ${locationHtml}
+              </div>
+            </div>
+            <p class="timeline-date">${escapeHtml(pos.startDate)} — ${escapeHtml(pos.endDate || 'Present')}</p>
+          </div>
+          <ul class="timeline-highlights">${visibleHighlights}</ul>
+          ${moreHighlightsHtml}
+          ${technologiesHtml ? `<div class="experience-tech-list">${technologiesHtml}</div>` : ''}
+        </div>
+      </article>`;
+      })
       .join('');
   }
 
   function renderSkills(data) {
-    const heading = document.querySelector('#skills .section-title');
+    const section = document.getElementById('skills');
+    if (!section) return;
+
+    const heading = section.querySelector('.section-title');
     if (heading) heading.textContent = data.heading || 'SKILLS';
 
-    const grid = document.querySelector('.skills-grid-modern');
+    const overview = section.querySelector('.skills-overview');
+    const grid = section.querySelector('.skills-grid-modern');
     if (!grid || !data.categories) return;
 
-    grid.innerHTML = data.categories
-      .map((cat) => {
-        const isHighlight = cat.isHighlight ? ' highlight-box' : '';
-        const tagsHtml = (cat.items || [])
-          .map(
-            (item) =>
-              `<span class="tag"><i class="${item.icon || 'fas fa-code'}"></i> ${escapeHtml(item.name)}</span>`
-          )
-          .join('');
-        return `
-        <div class="skill-box${isHighlight}">
-          <div class="skill-box-header">
-            <i class="${cat.icon || 'fas fa-code'} skill-icon-large"></i>
-            <h3 class="skill-box-title">${escapeHtml(cat.name)}</h3>
-          </div>
-          <div class="tech-tags">${tagsHtml}</div>
+    const totalSkills = data.categories.reduce(
+      (total, category) => total + (category.items || []).length,
+      0
+    );
+
+    if (overview) {
+      overview.innerHTML = `
+        <div class="skills-overview-copy">
+          <span class="skills-kicker">CAPABILITY MAP</span>
+          <p>${escapeHtml(data.intro || '')}</p>
+        </div>
+        <div class="skills-stats" aria-label="Skills summary">
+          <div class="skills-stat"><strong>${totalSkills}</strong><span>Capabilities</span></div>
+          <div class="skills-stat"><strong>${data.categories.length}</strong><span>Focus areas</span></div>
+          <div class="skills-stat skills-stat-emphasis"><strong>S/4</strong><span>Core platform</span></div>
         </div>`;
+    }
+
+    const previewLimit = 8;
+    grid.innerHTML = data.categories
+      .map((cat, categoryIndex) => {
+        const accent = ['cyan', 'yellow', 'pink', 'green'].includes(cat.accent)
+          ? cat.accent
+          : 'cyan';
+        const itemNames = (cat.items || []).map((item) =>
+          typeof item === 'string' ? item : item.name
+        );
+        const tagsHtml = itemNames
+          .map((item, itemIndex) => {
+            const collapsedClass = itemIndex >= previewLimit ? ' is-collapsed' : '';
+            const hiddenAttribute = itemIndex >= previewLimit ? ' hidden' : '';
+            return `<span class="skill-chip${collapsedClass}"${hiddenAttribute}>${escapeHtml(item)}</span>`;
+          })
+          .join('');
+        const remainingCount = Math.max(itemNames.length - previewLimit, 0);
+        const toggleHtml = remainingCount
+          ? `<button class="skills-toggle" type="button" aria-expanded="false">
+              <span>Show ${remainingCount} more</span>
+              <i class="fas fa-plus" aria-hidden="true"></i>
+            </button>`
+          : '';
+
+        return `
+        <article class="skill-box skill-box-${accent}${categoryIndex === 0 ? ' skill-box-primary' : ''}">
+          <div class="skill-box-header">
+            <div class="skill-icon-wrap">
+              <i class="${cat.icon || 'fas fa-code'} skill-icon-large"></i>
+            </div>
+            <div class="skill-box-heading">
+              <span class="skill-box-index">${String(categoryIndex + 1).padStart(2, '0')}</span>
+              <h3 class="skill-box-title">${escapeHtml(cat.name)}</h3>
+            </div>
+            <span class="skill-count">${itemNames.length}</span>
+          </div>
+          <p class="skill-box-description">${escapeHtml(cat.description || '')}</p>
+          <div class="skill-chip-list">${tagsHtml}</div>
+          ${toggleHtml}
+        </article>`;
       })
       .join('');
+
+    grid.querySelectorAll('.skills-toggle').forEach((button) => {
+      button.addEventListener('click', () => {
+        const card = button.closest('.skill-box');
+        const isExpanded = button.getAttribute('aria-expanded') === 'true';
+        const hiddenSkills = card.querySelectorAll('.skill-chip.is-collapsed');
+        const count = hiddenSkills.length;
+
+        hiddenSkills.forEach((skill) => {
+          skill.hidden = isExpanded;
+        });
+        button.setAttribute('aria-expanded', String(!isExpanded));
+        button.querySelector('span').textContent = isExpanded
+          ? `Show ${count} more`
+          : 'Show fewer';
+        button.querySelector('i').className = isExpanded
+          ? 'fas fa-plus'
+          : 'fas fa-minus';
+      });
+    });
   }
 
   function renderProjects(data) {
@@ -366,15 +479,28 @@
         const techHtml = (proj.technologies || [])
           .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
           .join('');
+        const imageHtml = proj.image
+          ? `<figure class="project-media">
+              <img
+                src="${escapeHtml(proj.image)}"
+                alt="${escapeHtml(proj.imageAlt || '')}"
+                width="1024"
+                height="640"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>`
+          : '';
         return `
-        <div class="project-card">
+        <article class="project-card">
+          ${imageHtml}
           <div class="project-header">
             <h3 class="project-title">${escapeHtml(proj.name)}</h3>
             <div class="project-links">${linksHtml.join('')}</div>
           </div>
           <p class="project-desc">${escapeHtml(proj.description)}</p>
           <div class="tech-tags">${techHtml}</div>
-        </div>`;
+        </article>`;
       })
       .join('');
   }
@@ -511,7 +637,7 @@
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0 }
     );
 
     document.querySelectorAll('.section, .timeline-item, .skill-box').forEach((el) => {
