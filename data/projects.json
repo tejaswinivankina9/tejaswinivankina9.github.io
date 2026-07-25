@@ -9,6 +9,8 @@
         "FI",
         "MM"
       ],
+      "image": "assets/images/projects/sap-p2p-transformation.png",
+      "imageAlt": "Illustrated procure-to-pay workflow connecting requisition, order, delivery, scanning, and invoice approval",
       "liveUrl": "",
       "githubUrl": ""
     },
@@ -18,6 +20,8 @@
       "technologies": [
         "SAP FI/CO"
       ],
+      "image": "assets/images/projects/sap-central-finance.png",
+      "imageAlt": "Illustrated finance ledgers converging into a central reporting hub and analytics dashboard",
       "liveUrl": "",
       "githubUrl": ""
     },
@@ -28,6 +32,8 @@
         "SAP MM",
         "FI"
       ],
+      "image": "assets/images/projects/sap-inventory-cost.png",
+      "imageAlt": "Illustrated smart warehouse with inventory scanning, cost controls, and analytics",
       "liveUrl": "",
       "githubUrl": ""
     },
@@ -37,6 +43,8 @@
       "technologies": [
         "Python"
       ],
+      "image": "assets/images/projects/sentiment-analysis.png",
+      "imageAlt": "Illustrated sentiment analysis application classifying messages with a neural network",
       "liveUrl": "https://github.com/tejaswinivankina9/sentiment-analysis-webapp-sagemaker",
       "githubUrl": "https://github.com/tejaswinivankina9/sentiment-analysis-webapp-sagemaker"
     },
@@ -47,6 +55,8 @@
         "Jupyter Notebook",
         "Python"
       ],
+      "image": "assets/images/projects/contrail-detection.png",
+      "imageAlt": "Illustrated aircraft contrail being identified by a computer vision system",
       "liveUrl": "https://github.com/tejaswinivankina9/identify_contrails",
       "githubUrl": "https://github.com/tejaswinivankina9/identify_contrails"
     },
@@ -56,6 +66,8 @@
       "technologies": [
         "Python"
       ],
+      "image": "assets/images/projects/deep-learning-option-pricing.png",
+      "imageAlt": "Illustrated financial scenario tree feeding a deep learning pricing model",
       "liveUrl": "https://github.com/tejaswinivankina9/thesis-option-pricing-with-deep-learning",
       "githubUrl": "https://github.com/tejaswinivankina9/thesis-option-pricing-with-deep-learning"
     },
@@ -66,6 +78,8 @@
         "Python",
         "HTML"
       ],
+      "image": "assets/images/projects/enhanced-anomaly-detection.png",
+      "imageAlt": "Illustrated monitoring system isolating an anomalous signal with machine learning",
       "liveUrl": "https://github.com/tejaswinivankina9/enhanced-anomaly-detection-system",
       "githubUrl": "https://github.com/tejaswinivankina9/enhanced-anomaly-detection-system"
     },
@@ -76,6 +90,8 @@
         "Jupyter Notebook",
         "Python"
       ],
+      "image": "assets/images/projects/grocery-prediction-recommendation.png",
+      "imageAlt": "Illustrated online grocery basket supported by demand forecasting and product recommendations",
       "liveUrl": "https://github.com/tejaswinivankina9/online-grocery-retail---prediction-and-recommendation",
       "githubUrl": "https://github.com/tejaswinivankina9/online-grocery-retail---prediction-and-recommendation"
     },
@@ -86,6 +102,8 @@
         "Jupyter Notebook",
         "Python"
       ],
+      "image": "assets/images/projects/data-science-salary.png",
+      "imageAlt": "Illustrated data science compensation dashboard with role and experience analysis",
       "liveUrl": "https://github.com/tejaswinivankina9/ds_salary_proj",
       "githubUrl": "https://github.com/tejaswinivankina9/ds_salary_proj"
     },
@@ -95,6 +113,8 @@
       "technologies": [
         "Python"
       ],
+      "image": "assets/images/projects/customer-churn.png",
+      "imageAlt": "Illustrated customer retention system predicting which users may leave",
       "liveUrl": "https://github.com/tejaswinivankina9/customer-churn-prediction",
       "githubUrl": "https://github.com/tejaswinivankina9/customer-churn-prediction"
     },
@@ -107,6 +127,8 @@
         "Python",
         "CSS"
       ],
+      "image": "assets/images/projects/payment-fraud-detection.png",
+      "imageAlt": "Illustrated digital payment network detecting and blocking a suspicious transaction",
       "liveUrl": "https://github.com/tejaswinivankina9/online-payments-fraud-detection-with-machine-learning",
       "githubUrl": "https://github.com/tejaswinivankina9/online-payments-fraud-detection-with-machine-learning"
     },
@@ -117,6 +139,8 @@
         "Jupyter Notebook",
         "Python"
       ],
+      "image": "assets/images/projects/anomaly-detection.png",
+      "imageAlt": "Illustrated time-series analytics dashboard highlighting an unusual data point",
       "liveUrl": "https://github.com/tejaswinivankina9/anomaly-detection",
       "githubUrl": "https://github.com/tejaswinivankina9/anomaly-detection"
     },
@@ -131,15 +155,10 @@
         "Shell",
         "Dockerfile"
       ],
+      "image": "assets/images/projects/eeg-brain-mapping.png",
+      "imageAlt": "Illustrated EEG brain mapping and neural signal classification system",
       "liveUrl": "https://github.com/tejaswinivankina9/brain-mapping-eeg-classification",
       "githubUrl": "https://github.com/tejaswinivankina9/brain-mapping-eeg-classification"
-    },
-    {
-      "name": "contribution-history",
-      "description": "Contribution activity",
-      "technologies": [],
-      "liveUrl": "https://github.com/tejaswinivankina9/contribution-history",
-      "githubUrl": "https://github.com/tejaswinivankina9/contribution-history"
     }
   ]
 }

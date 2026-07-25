@@ -4,6 +4,10 @@
     {
       "title": "SAP Functional Analyst – S/4HANA FI/CO & P2P",
       "company": "Microsoft",
+      "companyUrl": "https://www.microsoft.com",
+      "logo": "assets/images/companies/microsoft.svg",
+      "logoAlt": "Microsoft",
+      "logoVariant": "symbol",
       "startDate": "May 2025",
       "endDate": "Present",
       "description": "Served as a liaison between Business Stakeholders and IT teams, conducting Requirements Gathering, Fit-Gap Analysis, and Business Process Analysis to define As-Is and To-Be Process Flows across Finance, Controlling, and Procurement functions.\nConfigured and supported SAP S/4HANA FI/CO modules including General Ledger (GL), Accounts Payable (AP), Accounts Receivable (AR), Asset Accounting, Cost Center Accounting, and Internal Orders, ensuring compliance with corporate and regulatory requirements.\nCollaborated with Supply Chain, Procurement, and Finance teams to streamline Procure-to-Pay (P2P) processes, supporting Inventory Accounting, Goods Receipts, Vendor Invoice Management, and financial reconciliation activities.\nAnalyzed Inventory Postings, Vendor Invoices, and Logistics Costs to ensure accurate FI-MM Integration, improving financial visibility and operational reporting across procurement and supply chain functions.\nDeveloped SAP Fiori and Power BI KPI Dashboards to monitor Vendor Performance, Cost Variances, Operational Spend, and financial metrics, enabling data-driven decision-making and improved business visibility.\nSupported Master Data Validation, Business Partner (BP) maintenance, and data reconciliation activities to ensure data integrity across Finance, Procurement, and Supply Chain processes.\nLed System Integration Testing (SIT), User Acceptance Testing (UAT), Cutover Activities, and Hypercare Support, ensuring successful SAP S/4HANA deployments and business continuity during go-live phases.\nCreated Functional Specifications, process documentation, test scripts, and end-user training materials, supporting user adoption and standardized SAP best practices across business teams.\nSupported SAP Activate deliverables including sprint planning, solution validation, testing coordination, and go-live readiness activities.",
@@ -37,6 +41,10 @@
     {
       "title": "SAP Business Analyst – S/4HANA FI/MM",
       "company": "CitiusTech",
+      "companyUrl": "https://www.citiustech.com",
+      "logo": "assets/images/companies/citiustech.svg",
+      "logoAlt": "CitiusTech",
+      "logoVariant": "wordmark",
       "startDate": "Nov 2020",
       "endDate": "Dec 2023",
       "description": "Supported SAP S/4HANA Implementations across FI, CO, MM, and SD, partnering with business stakeholders to conduct Requirements Gathering, Fit-Gap Analysis, and solution design activities aligned with business objectives.\nConducted Business Process Analysis and developed As-Is / To-Be Process Maps, Business Requirement Documents (BRDs), and Functional Requirement Documents (FRDs) to standardize Procure-to-Pay (P2P), Record-to-Report (R2R), and Order-to-Cash (OTC) processes.\nConfigured and supported General Ledger (GL), Accounts Payable (AP), Accounts Receivable (AR), Asset Accounting, Cost Center Accounting, and Internal Orders, ensuring compliance with financial and operational requirements.\nCollaborated with Finance, Procurement, and Operations teams to support Inventory Accounting, Vendor Management, Goods Receipt, Invoice Verification, and end-to-end SAP FI-MM Integration processes.\nDeveloped SAP Fiori Applications, SAP HANA Analytical Views, CDS Views, and KPI Dashboards to support Financial Reporting, Cost Control, Inventory Visibility, and executive decision-making.\nAutomated business processes using SAP Workflows, Fiori Applications, and background jobs, reducing manual effort and improving operational efficiency across finance and procurement functions.\nSupported Unit Testing, SIT, UAT, and defect resolution activities to ensure successful SAP deployments and production readiness.\nCoordinated with technical teams on IDocs, BAPIs, RFCs, and interface testing activities, supporting seamless integration between SAP S/4HANA and enterprise applications.",
